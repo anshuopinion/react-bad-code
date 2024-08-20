@@ -1,10 +1,11 @@
 import React from "react";
-import IncorrectStateUpdates from "./components/bad/IncorrectStateUpdates";
+import AsyncNatureMisuse from "./components/bad/AsyncNatureMisuse";
+import AsyncNatureMisuseFix from "./components/fixed/AsyncNatureMisuseFix";
 
 const App = () => {
   return (
     <div>
-      <IncorrectStateUpdates />
+      {/* <IncorrectStateUpdates /> */}
       {/* <IncorrectStateUpdatesFix /> */}
       {/* <LoopStateUpdates /> */}
       {/* <LoopStateUpdatesFix /> */}
@@ -12,7 +13,7 @@ const App = () => {
       {/* <DirectMutationFix /> */}
       {/* <UnnecessaryState /> */}
       {/* <UnnecessaryStateFix /> */}
-      {/* <AsyncNatureMisuse /> */}
+      <AsyncNatureMisuse />
       {/* <AsyncNatureMisuseFix /> */}
       {/* <OverusingState /> */}
       {/* <OverusingStateFix /> */}

@@ -11,10 +11,6 @@ function AsyncNatureMisuseFix() {
     });
   };
 
-  useEffect(() => {
-    console.log("Effect:", count);
-  }, [count]);
-
   return (
     <div>
       <h2>5. Proper Async State Handling</h2>
