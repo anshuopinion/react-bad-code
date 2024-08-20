@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import { useReducer } from "react";
 
 function OverusingStateFix() {
   const initialState = { isLoading: false, error: null, data: null, page: 1 };

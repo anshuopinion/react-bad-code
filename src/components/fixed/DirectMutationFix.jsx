@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function DirectMutationFix() {
   const [user, setUser] = useState({ name: "John", age: 30 });

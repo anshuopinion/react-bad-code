@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function OverusingState() {
   // Bad: Too many related state variables

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function UnnecessaryState() {
   // Bad: Unnecessary use of state

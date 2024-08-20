@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function PropsInitialization({ initialCount }) {
   // Bad: This won't update if the prop changes

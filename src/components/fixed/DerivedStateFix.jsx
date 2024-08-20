@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 
 function DerivedStateFix() {
   const [firstName, setFirstName] = useState("John");

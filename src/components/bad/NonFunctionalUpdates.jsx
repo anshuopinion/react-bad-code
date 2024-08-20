@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function NonFunctionalUpdates() {
   const [count, setCount] = useState(0);
