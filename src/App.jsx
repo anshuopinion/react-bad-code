@@ -1,6 +1,6 @@
 import React from "react";
-import AsyncNatureMisuse from "./components/bad/AsyncNatureMisuse";
-import AsyncNatureMisuseFix from "./components/fixed/AsyncNatureMisuseFix";
+import DerivedState from "./components/bad/DerivedState";
+import DerivedStateFix from "./components/fixed/DerivedStateFix";
 
 const App = () => {
   return (
@@ -13,17 +13,16 @@ const App = () => {
       {/* <DirectMutationFix /> */}
       {/* <UnnecessaryState /> */}
       {/* <UnnecessaryStateFix /> */}
-      <AsyncNatureMisuse />
+      {/* <AsyncNatureMisuse /> */}
       {/* <AsyncNatureMisuseFix /> */}
       {/* <OverusingState /> */}
       {/* <OverusingStateFix /> */}
       {/* <PropsInitialization initialCount={5} /> */}
-      {/* <PropsInitializationFix initialCount={5} /> */}
+      {/* <PropsInitializationFix initialCount={10} /> */}
       {/* <ComplexComputation /> */}
       {/* <ComplexComputationFix /> */}
-      {/* <NonFunctionalUpdates /> */}
-      {/* <NonFunctionalUpdatesFix /> */}
-      {/* <DerivedState /> */}
+
+      <DerivedState />
       {/* <DerivedStateFix /> */}
     </div>
   );
